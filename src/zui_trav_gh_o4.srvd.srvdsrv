@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TRAV_GH'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TRAV_GH'
+  }
+}
+define service ZUI_TRAV_GH_O4 provider contracts odata_v4_ui {
+  expose ZC_TRAV_GH as R_TRAV_GH;
+}
